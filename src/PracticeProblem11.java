@@ -14,7 +14,7 @@ public class PracticeProblem11 {
 		for (int i = 0; i<winners.length; i++){
 			winner = roll.nextInt(30) + 1;
 			System.out.println(winner);
-
+			same = true;
 			while (same){
 				if (winner == winners[0] || winner == winners[1] || winner == winners[2]){
 					winner = roll.nextInt(30) + 1;
